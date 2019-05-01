@@ -1,0 +1,28 @@
+body {
+    background: silver;
+}
+
+input{
+    height: 60px;
+    width: 60px;
+    margin: 3px;
+    font-size: 16px;
+
+}
+form {
+    width: 280px;
+    margin: 10px auto;
+    padding: 10px auto;
+    border: 1px solid white;
+
+}
+
+#input_window{
+    width: 268px;
+}
+
+#clear, #ravno{
+    width: 46.5%;
+
+}
+

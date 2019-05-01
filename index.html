@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel = stylesheet>
+    </head>
+    <body>
+        <div class="wrapper">
+            <form name="Calculator">
+                <input id="input_window" name="display" placeholder="0"   type="text" style="text-align: right"></br>
+                <input id="n1"              type="button" value="1"  onclick="document.Calculator.display.value += '1'">
+                <input id="n2"              type="button" value="2"  onclick="document.Calculator.display.value += '2'">
+                <input id="n3"              type="button" value="3"  onclick="document.Calculator.display.value += '3'">
+                <input id="plus"            type="button" value="+"  onclick="document.Calculator.display.value += '+'"></br>
+                <input id="n4"              type="button" value="4"  onclick="document.Calculator.display.value += '4'">
+                <input id="n5"              type="button" value="5"  onclick="document.Calculator.display.value += '5'">
+                <input id="n6"              type="button" value="6"  onclick="document.Calculator.display.value += '6'">
+                <input id="minus"           type="button" value="-"  onclick="document.Calculator.display.value += '-'"></br>
+                <input id="n7"              type="button" value="7"  onclick="document.Calculator.display.value += '7'">
+                <input id="n8"              type="button" value="8"  onclick="document.Calculator.display.value += '8'">
+                <input id="n9"              type="button" value="9"  onclick="document.Calculator.display.value += '9'">
+                <input id="umnojit"         type="button" value="*"  onclick="document.Calculator.display.value += '*'"></br>
+                <input id="n0"              type="button" value="0"  onclick="document.Calculator.display.value += '0'">
+                <input id="tochka"          type="button" value="."  onclick="document.Calculator.display.value += '.'">
+                <input id="delit"           type="button" value="/"  onclick="document.Calculator.display.value += '/'">
+                <input id="procent"         type="button" value="%"  onclick="document.Calculator.display.value += '%'"></br>
+                <input id="clear"           type="button" value="CE" onclick="btn_clear()">
+                <input id="ravno"           type="button" value="="  onclick="document.Calculator.display.value = eval(document.Calculator.display.value)">
+                
+            </form>
+        </div>
+
+    </body>
+    <script>
+
+    
+        function btn_clear(){
+            document.Calculator.display.value = " ";
+        }
+
+    
+   </script>
+</html>
+    
